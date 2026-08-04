@@ -1,6 +1,7 @@
 :root {
     color-scheme: light;
     --background: #fffaf0;
+    --secundairy-background: rgb(255 255 255 / 88%);
     --surface: #ffffff;
     --surface-soft: #f1f4e8;
     --text: #243127;
@@ -113,7 +114,7 @@ h2 { line-height: 1.2; }
 
 .content-page,
 .content-block {
-    background: rgb(255 255 255 / 88%);
+    background: var(--secundairy-background);
     border: 1px solid var(--border);
     border-radius: var(--radius);
     box-shadow: var(--shadow);
@@ -161,6 +162,7 @@ button:disabled { opacity: .6; cursor: wait; }
     :root {
         color-scheme: dark;
         --background: #0f1612;
+        --secundairy-background: rgb(55 55 55 / 88%)
         --surface: #171f1a;
         --surface-soft: #1f2a23;
         --text: #e6efe9;
